@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        :root{
+           --text-color:white;
+           --secolor:rgb(92, 6, 173);
+            --color:rgb(185, 134, 232);
+        }
+        nav{
+            background-color: var(--color);
+            font-family: "Poppins", sans-serif;
+             font-weight: bolder;
+             font-style: normal;
+            padding: 15px;
+        }
+        ul li{
+            display: inline;
+            padding: 10px;
+            margin:10px;
+            border-radius: 20px;
+           /* border:1px solid black;*/
+        }
+        li:hover{
+            background-color: var(--secolor);
+        }
+        ul li a{
+            text-decoration: none;
+            color:var(--text-color);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
