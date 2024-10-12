@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table></table>
+    <table border="2">
+        <caption>student information</caption>
+        <tr>
+            <th>name</th>
+            <th>class</th>
+            <th>subject</th>
+        </tr>
+        <tr>
+            <td>saumya</td>
+            <td>12th-B</td>
+            <td>PCM</td>
+        </tr>
+        <tr>
+          <td>kunal</td>
+          <td>11th-A</td>
+          <td>PCM</td>
+        </tr>
+        <tr>
+            <td colspan="2">this cell contains two col spans</td>
+        </tr>
+    </table><br>
+    <form >
+     <label for="unsername">username</label>
+      <input type="text" name="unsername" id ="username" placeholder="enter your name"><br><hr>
+      <label for="unsername">username</label>
+        password:<input type="password"><br><hr>
+        <label for="DOB">DOB</label>
+        <input type="date" name="DOB" id="DOB"><br><hr>
+        <label for="resume">resume</label><hr>
+        <input type="file" name="resume" id="resume"><br><hr>
+        <label for="languages">programming languages</label>
+        <select name="programming languages" id="languages">
+            <option value="c">c</option>
+            <option value="c++">c++</option>
+            <option value="python">python</option>
+            <option value="java">java</option>
+        </select><br>
+        <label for="range">level</label>
+        <input type="range" id="range"><br><hr>
+        gender: <label for="female">female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="male">male</label>
+        <input type="radio" name ="gender" id="male">
+        <label for="others">others</label>
+        <input type="radio" name="gender" id="other"><br><hr>
+        <label for="check">i hereby declare that all the details filled is authentic</label>
+        <input type="checkbox" id="check"><br><hr>
+         review:<textarea name="review" id="review">comment here</textarea><hr>
+         <p>why do you want to join our company</p>
+         <textarea name="question" id="question">ans here</textarea>
+
+    
+</form>
+</body>
+</html>
